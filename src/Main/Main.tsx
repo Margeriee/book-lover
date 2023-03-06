@@ -4,7 +4,12 @@ import './Main.css';
 function Main() {
   return (
     <div className="main">
-        Main
+      <div className="container">
+        <h1>
+          We love to read <br/>
+          We read <span>for fun</span>
+        </h1>
+      </div>
     </div>
   );
 }
