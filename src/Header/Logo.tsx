@@ -4,8 +4,8 @@ import './Logo.css'
 function Logo() {
   return (
     <div className="logo">
-        <span>Book</span>
-        <span>Lovers</span>
+        <span className="logo_book">Book</span>
+        <span className="logo_lovers">Lo<span>v</span>ers</span>
     </div>
   );
 }

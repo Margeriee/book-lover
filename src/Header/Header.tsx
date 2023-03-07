@@ -1,15 +1,17 @@
 import React from 'react';
 import './Header.css';
 import Logo from './Logo';
-import Menu from './Menu';
+import Login from './Login';
 import Search from './Search';
 
 function Header() {
   return (
     <div className="header">
+      <div className="header-container">
         <Search />
         <Logo />
-        <Menu />
+        <Login />
+      </div>
     </div>
   );
 }

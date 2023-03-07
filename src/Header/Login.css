@@ -1,15 +1,10 @@
-.search {
+.login {
     display: flex;
     align-items: center;
     color: white;
 }
 
-.search svg {
+.login svg {
     width: 30px;
     margin-right: 10px;
-}
-
-.search p {
-    border-bottom: 1px solid white;
-    width: 120px;
 }
