@@ -1,5 +1,6 @@
 .subHeader {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgb(200 200 200 / 20%);
+    /* background-color: rgba(0, 0, 0, .5); */
     position: fixed;
     top: 70px;
     width: 100%;
