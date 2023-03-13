@@ -1,6 +1,5 @@
-.subHeader {
+.menu {
     background-color: rgb(200 200 200 / 20%);
-    /* background-color: rgba(0, 0, 0, .5); */
     position: fixed;
     top: 70px;
     width: 100%;
@@ -10,11 +9,15 @@
     font-size: 0.9rem;
 }
 
-.subHeader-container {
+.header-scroll .menu {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-container {
     width: 80%;
     padding: 4px 0;
 }
 
-.subHeader-container span {
+.menu-container span {
     margin-right: 30px;
 }

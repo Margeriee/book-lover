@@ -4,12 +4,25 @@
     color: white;
 }
 
+.header-scroll .search {
+    color: black;
+}
+
 .search svg {
     width: 30px;
     margin-right: 10px;
+    fill: white;
+}
+
+.header-scroll .search svg {
+    fill: black;
 }
 
 .search p {
     border-bottom: 1px solid white;
     width: 120px;
+}
+
+.header-scroll .search p {
+    border-bottom: 1px solid black;
 }

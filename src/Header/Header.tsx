@@ -3,6 +3,7 @@ import './Header.css';
 import Logo from './Logo';
 import Login from './Login';
 import Search from './Search';
+import Menu from './Menu';
 
 function Header() {
   return (
@@ -12,6 +13,7 @@ function Header() {
         <Logo />
         <Login />
       </div>
+      <Menu />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import './SubHeader.css';
+import './Menu.css';
 
-function SubHeader() {
+function Menu() {
   return (
-    <div className="subHeader">
-      <div className="subHeader-container">
+    <div className="menu">
+      <div className="menu-container">
         <span>All</span>
         <span>Bestsellers</span>
         <span>Recommended</span>
@@ -14,4 +14,4 @@ function SubHeader() {
   );
 }
 
-export default SubHeader;
+export default Menu;

@@ -9,6 +9,10 @@
     font-weight: 400;
 }
 
+.header-scroll .logo {
+    color: black;
+}
+
 .logo_lovers span {
     color: #FFA236;
 }

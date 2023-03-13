@@ -4,7 +4,16 @@
     color: white;
 }
 
+.header-scroll .login {
+    color: black;
+}
+
 .login svg {
     width: 30px;
     margin-right: 10px;
+    fill: white;
+}
+
+.header-scroll .login svg {
+    fill: black;
 }
