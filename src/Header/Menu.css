@@ -1,23 +1,24 @@
-.menu {
+.menu-container {
     background-color: rgb(200 200 200 / 20%);
-    position: fixed;
     top: 70px;
-    width: 100%;
     display: flex;
-    justify-content: center;
     color: white;
     font-size: 0.9rem;
-}
-
-.header-scroll .menu {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.menu-container {
     width: 80%;
-    padding: 4px 0;
+    padding: 4px 10%; /* count 10%*/
+}
+
+.header-scroll .menu-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all .5s;
 }
 
 .menu-container span {
     margin-right: 30px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.menu-container span:hover {
+    color: #FFA236;
 }

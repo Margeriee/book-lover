@@ -1,17 +1,10 @@
 .header {
-    height: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: fixed;
-    transition: all .5s;
-}
-
-.header-scroll {
-    background-color: white;
-    /* background-color: rgba(255, 228, 196, .5); */
 }
 
 .header-container {
@@ -19,5 +12,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    padding: 10px 10%;  /* ToDo: count 10% as (100%-containerWidth)/2 */
+    transition: all .5s;
+}  
+
+.header-scroll .header-container {
+    background-color: white;
+    transition: all .5s;
 }

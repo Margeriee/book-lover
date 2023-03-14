@@ -12,17 +12,21 @@
     width: 30px;
     margin-right: 10px;
     fill: white;
+    cursor: pointer;
 }
 
 .header-scroll .search svg {
     fill: black;
+    transition: all .5s;
 }
 
 .search p {
     border-bottom: 1px solid white;
     width: 120px;
+    cursor: text;
 }
 
 .header-scroll .search p {
     border-bottom: 1px solid black;
+    transition: all .5s;
 }

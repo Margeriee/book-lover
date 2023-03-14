@@ -11,6 +11,7 @@
 
 .header-scroll .logo {
     color: black;
+    transition: all .5s;
 }
 
 .logo_lovers span {
