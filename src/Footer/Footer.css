@@ -1,0 +1,5 @@
+.footer {
+    width: 100%;
+    height: 100px; /*ToDo: change height based on content and add padding and container*/
+    background-color: #150C0A; /*ToDo: change for const*/
+}
