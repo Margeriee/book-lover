@@ -1,0 +1,23 @@
+.processStep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 20%;
+}
+
+.processStep svg {
+    width: 30px;
+    height: 50px;
+    fill: #FFA236;
+}
+
+.processStep span {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.processStep p {
+    text-align: center;
+    font-size: smaller; /* ToDo */
+}

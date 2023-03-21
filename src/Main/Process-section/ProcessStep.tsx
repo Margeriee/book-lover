@@ -1,8 +1,8 @@
 import React from 'react';
-import './ProcessSection.css';
+import './ProcessStep.css';
 
 type processStepType = {
-    img: any, // ToDo: change for svg from source file
+    img: React.ReactNode,
     stepTitle: string,
     stepDescription: string
 }
@@ -12,7 +12,9 @@ const ProcessStep = (props: processStepType) => {
 
     return (
         <div className="processStep">
-
+            {img}
+            <span>{stepTitle}</span>
+            <p>{stepDescription}</p>
         </div>
     );
 }
