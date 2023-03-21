@@ -1,14 +1,14 @@
-.main {
+.titleSection {
     height: 100vh;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
       ), 
-      url('HeaderBackground.jpg');
+      url('TitleSectionBackground.jpg');
     background-size: cover;
 }
 
-.container {
+.titleSection .container {
     display: flex;
     align-items: center;
     margin-left: 10%;

@@ -1,31 +1,16 @@
 import React from 'react';
-import './Main.css';
-import Typical from 'react-typical'
+import ProcessSection from './Process-section/ProcessSection';
+import RecommendationsSection from './Recommendations-section/RecommendationsSection';
+import TitleSection from './Title-section/TitleSection';
 
 const Main = () => {
 
-  const steps = [
-    'for fun', 5000,
-    'for knowledge', 4000,
-    'to relax', 4000,
-    'for fun', 3500,
-    'to dream', 3500,
-    'for adventures', 3500,
-  ];
-
   return (
     <div className="main">
-      <div className="container">
-        <h1>
-          We love to read <br/>
-          We read&nbsp;
-            <Typical
-            steps={steps}
-            loop={Infinity}
-            wrapper="p"
-            />
-        </h1>
-      </div>
+      <TitleSection />
+      <RecommendationsSection />
+      <ProcessSection />
+      <RecommendationsSection />
     </div>
   );
 }
