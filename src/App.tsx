@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>/
         <Route path="/" element={<Main />}/>
-        {/* <Route path="/favorites" element={<Section />}/> */}
+        {/* <Route path="/favourites" element={<Section />}/> */}
       </Routes>
       <Footer />
     </div>
